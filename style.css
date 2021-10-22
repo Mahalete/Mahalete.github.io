@@ -109,13 +109,11 @@ header,
 .topnav a {
   float: left;
   display: block;
-  color: #65291d;
+  color: #bc5509;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  background-color: #e4a43c;
-  opacity: 0.5;
 }
 
 .topnav a:hover {
@@ -123,7 +121,7 @@ header,
 }
 
 .topnav a.active {
-  background-color: #65291d;
+  background-color: #bc5509;
   color: #e4a43c;
 }
 
@@ -223,7 +221,7 @@ header,
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #e4a43c;
+  background-color: #bc5509;
   color: white;
   cursor: pointer;
   padding: 15px;
