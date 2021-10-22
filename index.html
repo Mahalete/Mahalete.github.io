@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mahalete's Portfolio</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+      <div class="main_nav">
+        <div class="container">
+          <div class="logo">
+            <img src="images/Logo_light.svg"  height="90px";></div>
+          
+          <!-- <nav class="topnav" id="myTopnav">
+             <ul>
+              <li><a href="#projects" class="active">Projects</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#container_footer">Contact me</a></li>
+              <li>
+                <a href="gallery.html" target="_blank">Photo Gallery</a>
+              </li>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+            </ul>
+          </nav> -->
+
+          <div class="topnav" id="myTopnav">
+            <a href="#projects">Projects</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#container_footer">Contact me</a>
+            <a href="gallery.html" target="_blank">Photo Gallery</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-banner"><h2>Welcome to Mahalete's Portfolio</h2></div>
+    </header>
+    <main>
+      
+        <section id="projects">
+            <div class="container">
+          <h3>Projects</h3>
+          <div class="content">
+            <div class="card">
+              <img
+                src="./images/img-1.jpg"
+                alt="some image"
+              />
+              <h4>Some title</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+                rem.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="card">
+              <img
+                src="images/img-4.jpg"
+                alt="some image"
+              />
+              <h4>Some title</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+                rem.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="card">
+              <img
+                src="images/img-3.jpg"
+                alt="some image"
+              />
+              <h4>Some title</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+                rem.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        </section>
+        <section id="about">
+            <div class="container">
+          <h3>About me</h3>
+          <img
+            src="./images/lollipop.jpg"
+            alt="some image"
+          />
+          <p>
+            Hello,
+            <br>
+            I am Mahalete, and I am a Junior fullstack web developer, currently looking for opportunities to work on the field.  I emphasize on simplicity and purpose in all my web projects.
+            Please check my work, and feel free to contact me.
+
+          </p></div>
+        </section>
+        <section id="skills">
+            <div class="container">
+          <h3>My skills</h3>
+          <div class="content">
+            <div class="box">
+              <h5>Language</h5>
+             
+            <span class="material-icons">language</span>
+              <h6>English</h6>
+              <progress id="file" value="90" max="100"></progress>
+              <h6>Italian</h6>
+              <progress id="file" value="80" max="100"></progress>
+              <h6>Finnish</h6>
+              <progress id="file" value="40" max="100"></progress>
+            </div>
+            <div class="box">
+              <h5>Coding</h5>
+
+              <span class="material-icons"> laptop </span>
+             
+              <h5>html</h5>
+               <progress id="file" value="90" max="100"></progress>
+               <br>
+              <h6>Css</h6>
+              <progress id="file" value="60" max="100"></progress>
+              <h6>Javascript</h6>
+              <progress id="file" value="40" max="100"></progress>
+            </div>
+            <div class="box">
+              <h5>Interpersonal Skills</h5>
+              <span class="material-icons"> groups</span>
+              <br>
+              
+              <h5>Team works</h5>
+             <progress id="file" value="90" max="100"></progress>
+            </div>
+            
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div id="container_footer">
+        <h3>Contact me</h3>
+        <form>
+          <div class="form-group">
+            <label for="first">first name</label>
+            <input type="text" id="first" />
+          </div>
+          <div class="form-group">
+            <label for="last">last name</label>
+            <input type="text" id="last" />
+          </div>
+          <div class="form-group">
+            <label for="email">email</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <input type="submit" value="send" />
+        </form>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
