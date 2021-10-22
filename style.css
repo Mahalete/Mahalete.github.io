@@ -88,7 +88,7 @@ header,
 .logo a {
   text-decoration: none;
   display: block;
-  color: #e4c09e;
+  color: #e4a43c;
   padding: 0 2rem;
 }
 
@@ -109,7 +109,7 @@ header,
 .topnav a {
   float: left;
   display: block;
-  color: #e4c09e;
+  color: #e4a43c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -121,7 +121,7 @@ header,
 }
 
 .topnav a.active {
-  background-color: #e4c09e;
+  background-color: #e4a43c;
   color: white;
 }
 
@@ -221,7 +221,7 @@ header,
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #e4c09e;
+  background-color: #e4a43c;
   color: white;
   cursor: pointer;
   padding: 15px;
