@@ -97,7 +97,7 @@ header,
 
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: #bc5509;
   text-align: center;
   padding: 14px 16px;
@@ -116,6 +116,11 @@ header,
 
 .topnav .icon {
   display: none;
+}
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -364,8 +369,8 @@ input[type="submit"] {
   }
 
   header {
-    background: url("./images/bg-banner.jpg") no-repeat fixed center
-      center/cover;
+    background-image: url("./images/bg-banner.jpg") no-repeat fixed center
+      center/cover !important;
   }
   .hero-banner h2 {
     font-size: 1.5rem;
