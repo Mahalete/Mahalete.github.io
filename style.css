@@ -362,6 +362,11 @@ input[type="submit"] {
     text-align: center;
     padding: 1rem;
   }
+
+  header {
+    background: url("./images/bg-banner.jpg") no-repeat fixed center
+      center/cover;
+  }
   .hero-banner h2 {
     font-size: 1.5rem;
     top: 30vh;
