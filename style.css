@@ -305,9 +305,12 @@ h6 {
 }
 
 footer h3 {
+  margin-top: 1rem;
+  padding: 25px;
   color: white;
 }
 footer {
+  margin-top: 1rem;
   background-color: #333;
   text-align: center;
 }
