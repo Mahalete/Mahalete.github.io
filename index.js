@@ -1,11 +1,16 @@
+var hamburger = document.getElementById("myTopnav");
+
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+  hamburger.classList.toggle("responsive");
 }
+
+hamburger.querySelectorAll(".nav-link").forEach(function (navigation) {
+  navigation.addEventListener("click", function () {
+    hamburger.classList.toggle("responsive");
+  });
+});
+
+hamburger.querySelector(".nav-link");
 
 var mybutton = document.getElementById("myBtn");
 

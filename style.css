@@ -310,7 +310,7 @@ h6 {
 }
 
 footer h3 {
-  padding: 25px;
+  padding-top: 25px;
   color: white;
 }
 footer {
@@ -420,9 +420,12 @@ input[type="submit"] {
   }
   .topnav.responsive {
     position: relative;
+    background: white;
+    padding-bottom: 14px;
   }
   .topnav.responsive a.icon {
     position: absolute;
+    color: #bc5509;
     right: 0;
     top: 0;
   }
@@ -431,4 +434,12 @@ input[type="submit"] {
     display: block;
     text-align: left;
   }
+}
+
+.social-icons i {
+  display: inline-block;
+  color: white;
+  padding: 12px;
+  font-size: 2rem;
+  cursor: pointer;
 }
